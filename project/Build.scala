@@ -9,7 +9,7 @@ object ApplicationBuild extends Build {
 
   val appDependencies = Seq(
     "io.nuvo" % "moliere_2.10" % "0.1.0-SNAPSHOT",
-    "org.opensplice.mobile" % "ospl-mobile" % "1.1.1-SNAPSHOT",
+    "org.opensplice.mobile" % "ospl-mobile" % "1.1.0",
     "com.google.code.gson" % "gson" % "2.2.4",
     jdbc,
     anorm
