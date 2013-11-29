@@ -8,6 +8,8 @@ import akka.actor.{PoisonPill, Props}
 import java.util.UUID
 import dscript.runtime.DSRuntime._
 
+import scala.concurrent._
+import ExecutionContext.Implicits.global
 
 object EntityManager extends Controller {
 
